@@ -1,0 +1,39 @@
+.loading{
+	width: 43px; 
+	height: 11px;
+	background:url(../images/ajax-loader.gif) no-repeat;
+  padding: 0px;
+  position: relative;
+  top: 5px;
+}
+label .error{
+  color:#FF0000;
+}
+
+.wpmc_error_msg{
+    width:175px;
+    margin:auto;
+    text-align:center;
+    padding: 2px 0px;
+   border: 1px solid #D8D8D8;   
+   border-radius: 5px;
+   font-family: Arial;
+   font-size: 10px;
+   text-transform: uppercase;
+   background-color: rgb(255, 249, 242);
+   color: rgb(211, 0, 0);
+   
+  }
+  .wpmc_success_msg{
+   width:175px;
+   margin:auto;
+   text-align:center;
+   padding: 2px 0px;
+   border: 1px solid #D8D8D8;   
+   border-radius: 5px;
+   font-family: Arial;
+   font-size: 9px;
+   text-transform: uppercase;
+   background-color: rgb(236, 255, 216);
+   color: green;  
+  }
